@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.status(200).json({
         name: "Harsha Praneeth",
-        section: "CSE(QE-1B)"
+        section: "CSE(QE-2B)"
     });
 });
 
