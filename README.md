@@ -1,56 +1,76 @@
-# Lab 1: Node.js and Express server
+# Lab 1: Node.js and Express Server
 
-**Name:** Your Name Here  
-**Registration Number:** Your Reg Number Here  
-**Section:** Your Section Here
+## Student Details
 
-### Live Link
+- **Name:** YOUR NAME
+- **Registration Number:** YOUR REGISTRATION NUMBER
+- **Section:** YOUR SECTION
 
-- [Render / Railway URL Here](https://your-deployed-app-link.com) _(Or state 'Not applicable' / 'Postman Screenshots Attached' if not deployed)_
+## Live Deployment
 
-### How to Run
+- **URL:** Add your deployed server URL here.
+- **Status:** Pending deployment.
 
-Follow these steps to set up and run the server locally:
+## Project Description
 
-1. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
-2. **Start the Server:**
-   ```bash
-   node index.js
-   ```
+This project demonstrates the fundamentals of Node.js and Express.js by implementing a web server with multiple HTTP endpoints.
 
-### Endpoints Table
+## Technologies Used
 
-| Method  | Path           | Status Code   | Description                                                     |
-| :------ | :------------- | :------------ | :-------------------------------------------------------------- |
-| **GET** | `/`            | 200 OK        | Returns a simple plain-text welcome message.                    |
-| **GET** | `/about`       | 200 OK        | Returns a JSON object with student name and section details.    |
-| **GET** | `/time`        | 200 OK        | Returns a JSON object with the current system date and time.    |
-| **ANY** | `/*` (Unknown) | 404 Not Found | Returns a structured 404 JSON error message for invalid routes. |
+- Node.js
+- Express.js
+- JavaScript
+- Git and GitHub
 
-### Screenshots
+## How to Install and Run
 
-_Note: Ensure you place your screenshots inside a folder named `screenshots/` inside your `lab-01` directory._
+### Prerequisites
 
-#### Welcome Route (`/`)
+- Node.js and npm installed.
 
-![Welcome Route](screenshots/welcome.png)
+### Installation
 
-#### About Route (`/about`)
+1. Clone the repository.
+2. Navigate to the lab-01 folder.
+3. Install the dependencies.
+4. Start the server.
 
-![About Route](screenshots/about.png)
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd YOUR_REPOSITORY_NAME/lab-01
+npm install
+node index.js
+```
 
-#### Time Route (`/time`)
+The server runs on port 3000 by default, if configured that way in the code.
 
-![Time Route](screenshots/time.png)
+## API Endpoints
 
-#### 404 Catch-All Route
+| Method | Endpoint         | Description                                 |
+| ------ | ---------------- | ------------------------------------------- |
+| GET    | `/`              | Displays the welcome message.               |
+| GET    | `/about`         | Returns student information in JSON format. |
+| GET    | `/time`          | Returns the current date and time.          |
+| GET    | Any unknown path | Returns a 404 response.                     |
 
-![404 Error](screenshots/404.png)
+## Screenshots
 
-### Notes: Problems Faced & Solutions
+### Home Endpoint
 
-- **Problem:** Port 3000 was already in use by another application.
-- **Solution:** Used `kill-port` or changed the port constant to `3001` temporarily during testing before reverting back to the requested port `3000`.
+![Home endpoint](screenshots/home.png)
+
+### About Endpoint
+
+![About endpoint](screenshots/about.png)
+
+### Time Endpoint
+
+![Time endpoint](screenshots/time.png)
+
+### 404 Error
+
+![404 error](screenshots/404.png)
+
+## Problems Faced and Solutions
+
+Document any problems encountered while creating the server and explain how you solved them.

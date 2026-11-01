@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.status(200).json({
-        name: "Your Name Here",
-        section: "Your Section Here"
+        name: "Harsha Praneeth",
+        section: "CSE(QE-1B)"
     });
 });
 
