@@ -2,14 +2,14 @@
 
 ## Student Details
 
-- **Name:** YOUR NAME
-- **Registration Number:** YOUR REGISTRATION NUMBER
-- **Section:** YOUR SECTION
+- **Name:** PAYASAM HARSHA PRANEETH
+- **Registration Number:** 252U1R8074
+- **Section:** CSE(QE)-2B
 
 ## Live Deployment
 
-- **URL:** Add your deployed server URL here.
-- **Status:** Pending deployment.
+- **URL:** https://bef-lab-01.onrender.com/
+- **Status:** deployed.
 
 ## Project Description
 
