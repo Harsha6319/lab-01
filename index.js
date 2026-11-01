@@ -22,10 +22,7 @@ app.get('/time', (req, res) => {
 });
 
 app.use((req, res) => {
-    res.status(404).json({
-        error: "404 Not Found",
-        message: "The requested path does not exist."
-    });
+    res.status(404).send('404 page not found');
 });
 
 app.listen(PORT, () => {
