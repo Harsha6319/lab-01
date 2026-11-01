@@ -36,8 +36,8 @@ This project demonstrates the fundamentals of Node.js and Express.js by implemen
 4. Start the server.
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME/lab-01
+git clone Harsha6319/backend_labs
+cd Harsha6319/backend_labs/BEF_LAB-01
 npm install
 node index.js
 ```
